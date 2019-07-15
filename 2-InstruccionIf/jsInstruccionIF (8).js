@@ -13,5 +13,8 @@ function mostrar()
         alert("Es soltero y no es menor");
     }
 }
+//o tmb puede ser
+//if(edad>=18 && estcivil=="soltero")
+
 
 }//FIN DE LA FUNCIÓN
