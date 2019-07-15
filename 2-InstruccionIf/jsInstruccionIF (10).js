@@ -6,14 +6,14 @@ function mostrar()
 	if(notas >= 9)
 	{
 		alert("EXCELENTE, nota " + notas);
-	}
-	if(notas >=4 && notas < 9)
-	{
-		alert ("APROBÓ, nota: " + notas);
-	}
-	if(notas < 4)
-	{
+	} 
+	else { 
+		if(notas >=4)
+		{
+			alert ("APROBÓ, nota: " + notas);
+		}
+	else {
 		alert("Vamos, la proxima se puede, nota: " + notas);
 	}
-
-}//FIN DE LA FUNCIÓN
+}
+}
