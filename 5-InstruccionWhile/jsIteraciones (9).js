@@ -2,8 +2,8 @@ function mostrar()
 {
 
 	var contador = 0;
-	var minimo = +Infinity;
-	var maximo = -Infinity;
+	var minimo = -Infinity;
+	var maximo = +Infinity;
 	var numero;
 	// declarar variables
 
